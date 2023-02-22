@@ -374,3 +374,123 @@
 // let str = a.join(' ');
 //
 // console.log(str);
+
+// task 40
+
+// let arr = [];
+//
+// for (let i = 1; i <= 10; i++) {
+//     arr.push(i);
+// }
+//
+// console.log(arr);
+
+// task 41
+
+// let arr = [];
+//
+// for (let i = 1; i <= 10; i++) {
+//     arr.push('x');
+// }
+//
+// console.log(arr);
+
+// task 42
+
+// let arr1 = [54, 65, -234, 75, -32, 0, 3, -35, -254, 64, -97, 42, -33];
+// let arr2 = [];
+//
+// for (let i = 0; i < arr1.length; i++) {
+//     if (arr1[i] > 0) {
+//         arr2.push(arr1[i]);
+//     }
+// }
+//
+// console.log(arr2);
+
+// task 43
+
+// let arr = [5, 7, 12, 6, 35, 8, 3, 9];
+//
+// for (let i = 0; i < arr.length; i++) {
+//     arr[i] = arr[i] ** 2;
+// }
+//
+// console.log(arr);
+
+// task 44
+
+// let arr = [5, 8, 2, 3245, 4, 65, 654, 885, 22, 6];
+//
+// for (let i = 0; i < arr.length; i++) {
+//     arr[i] = arr[i] - 1;
+// }
+//
+// console.log(arr);
+
+// task 45
+
+// let arr = [45, 2, 5, 76, 8, 32, 70, 43, 1];
+//
+// for (let i = 0; i < arr.length; i++) {
+//     arr[i] = arr[i] + 10;
+// }
+//
+// console.log(arr);
+
+// task 46
+
+// let arr1 = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+// let arr2 = [1, 2, 3, 4, 5, 6, 7];
+//
+// let obj = {};
+//
+// for (let i = 0; i <= 6; i++) {
+//     obj[arr1[i]] = arr2[i];
+// }
+// console.log(obj);
+
+// task 47
+
+// let obj = {a: 1, b: 2, c: 3, d: 4, e: 5};
+// let newObj = {};
+//
+// for (let key in obj) {
+//     if (obj[key] % 2 === 0) {
+//         newObj[key] = obj[key];
+//     }
+// }
+//
+// console.log(newObj);
+
+// task 48
+
+// let obj = {a: 1, b: 2, c: 3, d: 4, e: 5};
+// let newObj = {};
+//
+// for (let key in obj) {
+//     let someKey = obj[key];
+//     newObj[someKey] = key;
+// }
+//
+// console.log(newObj);
+
+// task 49
+
+// let obj = {x: 1, y: 2, z: 3};
+//
+// for (let key in obj) {
+//     obj[key] = obj[key] ** 2;
+// }
+//
+// console.log(obj);
+
+// task 50
+//
+// let obj = {x: 1, y: 2, z: 3};
+//
+// for (let key in obj) {
+//     obj[key] = obj[key] + 1;
+// }
+//
+// console.log(obj);
