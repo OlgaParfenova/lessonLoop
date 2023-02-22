@@ -253,4 +253,124 @@
 //
 // console.log(str);
 
+// task 29
 
+// for (let i = 10; i <= 1000; i++) {
+//     let str = String(i);
+//     console.log(str[0]);
+// }
+
+// task 30
+
+// for (let i = 10; i <= 1000; i++) {
+//     let str = String(i);
+//     let sum = Number(str[0]) + Number(str[1]);
+//     console.log(sum);
+// }
+
+// task 31
+
+// for (let i = 10; i <= 1000; i++) {
+//     let str = String(i);
+//     if (+str[0] === 1) {
+//         console.log(+str);
+//     }
+// }
+
+// task 32
+
+// for (let i = 10; i <= 1000; i++) {
+//     let str = String(i);
+//
+//     if (+str[0] + +str[1] === 5) {
+//         console.log(str);
+//     }
+//
+// }
+
+// task 33
+
+// let arr = [1, 56, 12, 65, 9, 30, 84, 61, 19, 0, 36, 75, 25, 97, 159];
+//
+// for (let elem of arr) {
+//     if (elem !== 0) {
+//         console.log(elem);
+//     } else {
+//         console.log(elem);
+//         break;
+//     }
+// }
+
+// task 34
+
+// let arr = [32, 16, 9, 69, 10, 5, 48, -3, 7, 40, -10, 6, 3, -18, 1, 8];
+// let sum = 0;
+//
+// for (let elem of arr) {
+//     if (elem > 0) {
+//         sum += elem;
+//     } else {
+//         break;
+//     }
+// }
+//
+// console.log(sum);
+
+// task 35
+
+// let arr = [38, 78, 26, -3, 9, 17, 25, 3, 8, 0, 15, 26];
+//
+// for (let elem of arr) {
+//     if (elem === 3) {
+//         console.log(arr.indexOf(elem));
+//         break;
+//     }
+// }
+
+// task 36
+
+// let result = 0
+// let count = 1;
+//
+// while(result <= 100) {
+//     result += count;
+//     count++;
+// }
+//
+// console.log(count - 1);
+
+// task 37
+
+// for (let i = 1; i <= 9; i++) {
+//     for (let j = 1; j <= 3; j++) {
+//         document.write(i);
+//     }
+// }
+
+// task 38
+
+// let s = '';
+//
+// for (let i = 1; i <= 3; i++) {
+//     for ( let j = 1; j <= 3; j++){
+//         s += ` ${i}${j}`;
+//     }
+// }
+// let res = s.trim();
+// console.log(res);
+
+// task 39
+
+// let a = [];
+//
+// for (let i = 1; i <= 3; i++) {
+//     for ( let j = 1; j <= 3; j++){
+//         for (let k = 1; k <= 3; k++) {
+//             a.push(`${i}${j}${k}`);
+//         }
+//     }
+// }
+//
+// let str = a.join(' ');
+//
+// console.log(str);
