@@ -631,5 +631,216 @@
 //     console.log(sum);
 // }
 
+// task 62
 
+// let arr = [10, 20, 30, 40, 21, 32, 51];
+// let sum = 0;
+//
+// for (let elem of arr) {
+//     let str = String(elem);
+//     if (str[0] === '1' || str[0] === '2') {
+//         sum += Number(str);
+//     }
+// }
+//
+// console.log(sum);
 
+// task 63
+
+// let obj = {a: 10, b: 20, c: 30, d: 40, e: 50};
+// let sum = 0;
+//
+// for (let elem in obj) {
+//     let toStr = String(obj[elem]);
+//     if (toStr[0] === '1' || toStr[0] === '2') {
+//         sum += Number(toStr);
+//     }
+// }
+//
+// console.log(sum);
+
+// task 64
+
+// for (let i = 10; i >= 0; i--) {
+//     console.log(i);
+// }
+
+// task 65
+
+// let i = 0;
+//
+// while (i <= 10) {
+//     console.log(i);
+//     i++;
+// }
+
+// task 66
+
+// let res = 0;
+//
+// for (let i = 1; i <= 10; i++) {
+//     res += i;
+// }
+//
+// console.log(res);
+
+// task 67
+
+// let res = 1;
+//
+// for (let i = 1; i <= 10; i++) {
+//     res *= i;
+// }
+//
+// console.log(res);
+
+// task 68
+
+// let arr = ['1', '2', '3', '4', '5'];
+// let sum = 0;
+//
+// for (let elem of arr) {
+//     sum += +elem;
+// }
+//
+// console.log(sum); // должно вывести 15
+
+// task 69
+
+// let arr = ['1', '2', '3', '4', '5'];
+// let sum = 0;
+//
+// for (let elem of arr) {
+//     sum += +elem;
+// }
+//
+// console.log(sum); // должно вывести 15
+
+// task 70
+
+// let arr = ['1', '2', '3', '4', '5'];
+// let sum = 0;
+//
+// for (let i = 0; i < arr.length; i++) {
+//     sum += +arr[i];
+// }
+//
+// console.log(sum);
+
+// task 71
+
+// let arr = ['1', '2', '3', '4', '5'];
+// let sum = 0;
+//
+// for (let i = 0; i < arr.length; i++) {
+//     sum += +arr[i];
+// }
+//
+// console.log(sum);
+
+// task 72
+
+// let arr = [1, 2, 3, 4, 5];
+// let arr2 = [];
+//
+// for (let elem of arr) {
+//     let square = elem ** 2;
+//     arr2.push(square);
+// }
+//
+// console.log(arr2);
+
+// task 73
+
+// let arr = [];
+//
+// for (let i = 1; i <= 5; i++) {
+//     arr.push(i);
+// }
+//
+// console.log(arr);
+
+// task 74
+
+// let obj = {a: 1, b: 2, c: 3};
+// let sum = 0;
+//
+// for (let elem in obj) {
+//     sum += obj[elem];
+// }
+//
+// console.log(sum);
+
+// task 75
+
+// let obj = {a: 1, b: 2, c: 3};
+// let sum = 0;
+//
+// for (let key in obj) {
+//     sum += obj[key];
+// }
+//
+// console.log(sum);
+
+// task 76
+
+// let arr = [1, 2, 3, 4, 5];
+// let res;
+//
+// for (let elem of arr) {
+//     if (elem === 3) {
+//         res = '+++';
+//         break;
+//     } else {
+//         res = '---';
+//     }
+// }
+//
+// console.log(res);
+
+// task 77
+
+// let arr = [];
+//
+// for (let i = 1; i <= 5; i++) {
+//     arr.push(i);
+// }
+//
+// console.log(arr);
+
+// task 78
+
+// let arr = [1, 2, 4, 5];
+// let res = false;
+//
+// for (let elem of arr) {
+//     if (elem === 3) {
+//         res = true;
+//         break;
+//     }
+// }
+//
+// console.log(res);
+
+// task 79
+
+// let arr = [1, 2, 3, 4, 5];
+//
+// for (let elem of arr) {
+//     if (elem % 2 === 0) {
+//         console.log(elem);
+//     }
+// }
+
+// task 80
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let res = [];
+//
+// for (let elem of arr) {
+//     if (elem % 2 !== 0) {
+//         res.push(elem);
+//     }
+// }
+//
+// console.log(res);
