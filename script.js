@@ -494,3 +494,142 @@
 // }
 //
 // console.log(obj);
+
+// task 51
+
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// let flag = false;
+//
+// for (let elem of arr) {
+//     if (elem === 'c') {
+//         flag === true;
+//         break;
+//     }
+// }
+//
+// if (flag === true) {
+//     console.log('+++');
+// } else {
+//     console.log('---')
+// }
+
+// task 52
+
+// function isPrime (num) {
+//     if (num === 1 || num <= 0) {
+//         return false;
+//     } else {
+//         for(let i = 2; i < num; i++) {
+//             if(num % i === 0) {
+//                 return false;
+//             }
+//         }
+//         return true;
+//     }
+// }
+
+// task 53
+
+// let arr = [1, 2, 3, 2, 4, 3, 5, 6, 3, 2, 3];
+// let counter = 0;
+//
+// for (let elem of arr) {
+//     if (elem === 3) {
+//         counter++;
+//     }
+// }
+//
+// console.log(counter);
+
+// task 54
+
+// let arr = [1, 2, 3, 2, 4, 3, 5, 6, 3, 2, 3];
+// let count3 = 0;
+// let count2 = 0;
+//
+// for (let elem of arr) {
+//     if (elem === 3) {
+//         count3++;
+//     }
+//     if (elem === 2) {
+//         count2++;
+//     }
+// }
+//
+// console.log(count3);
+// console.log(count2);
+
+// task 55
+
+// let str = 'ifqhei vqrhoegb ioeoimf';
+// let counter = {};
+// let arr = Array.from(str);
+//
+// for (let elem of arr) {
+//     if (counter[elem] === undefined) {
+//         counter[elem] = 1;
+//     } else {
+//         counter[elem]++;
+//     }
+// }
+//
+// console.log(counter);
+
+// task 56
+//
+// let str = 'kqenvjib vjewib jvewiwrot';
+// let counter = {};
+// let arr = str.split('');
+//
+// for (let elem of arr) {
+//     if (counter[elem] === undefined) {
+//         counter[elem] = 1;
+//     } else {
+//         counter[elem]++;
+//     }
+// }
+//
+// console.log(counter);
+
+// task 57
+
+// let arr = [4, 7, 9, 1, 7, 3, 8, 2, 6];
+// for (let i = 0; i < arr.length - 1; i++) {
+//     console.log(arr[i + 1]);
+// }
+
+// task 58
+
+// let arr = [4, 7, 9, 1, 7, 3, 8, 2, 6];
+//
+// for (let i = 0; i < arr.length - 1; i++) {
+//     console.log(arr[i] + arr[i + 1]);
+// }
+
+// task 59
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+//
+// for (let i = 2; i <= arr.length; i++) {
+//     console.log(`${arr[i - 2]} ${arr[i - 1]}`);
+// }
+
+// task 60
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+//
+// for (let i = 2; i < arr.length; i++) {
+//     let sum = arr[i - 2] + arr[i - 1] + arr[i];
+//     console.log(sum);
+// }
+
+// task 61
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+//
+// for (let i = 1; i < arr.length - 1; i++) {
+//     let sum = arr[i - 1] + arr[i] + arr[i + 1];
+//     console.log(sum);
+// }
+
+
+
