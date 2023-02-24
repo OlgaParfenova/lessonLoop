@@ -844,3 +844,248 @@
 // }
 //
 // console.log(res);
+
+// task 81
+
+// for (let i = 1; i <= 100; i++) {
+//     console.log(i);
+// }
+
+// task 82
+
+// for (let i = 100; i >= 1; i--) {
+//     console.log(i);
+// }
+
+// task 83
+
+// for (let i = 0; i <= 100; i+=2) {
+//     console.log(i);
+// }
+
+// task 84
+
+// let arr = [];
+//
+// for (let i = 0; i < 10; i++) {
+//     arr.push('x');
+// }
+//
+// console.log(arr);
+
+// task 85
+
+// let arr = [];
+//
+// for (let i = 1; i <= 10; i++) {
+//     arr.push(i);
+// }
+//
+// console.log(arr);
+
+// task 86
+
+// let arr = [7, 14, 6, 768, 2, 65, 8, 25, 6, 76, 7, 12];
+//
+// for (let elem of arr) {
+//     if (elem > 0 && elem < 10) {
+//         console.log(elem);
+//     }
+// }
+
+// task 87
+
+// let arr = [4, 8, 23, 7, 98, 24, 7, 2, 6, 12, 7, 90];
+// let flag = false;
+//
+// for (let elem of arr) {
+//     if (elem === 5) {
+//         flag = true;
+//     }
+// }
+//
+// console.log(flag);
+
+// task 88
+
+// let arr = [0, 5, 6, 1, 6, 8, 8, 23];
+// let sum = 0;
+//
+// for (let elem of arr) {
+//     sum += elem;
+// }
+//
+// console.log(sum);
+
+// task 89
+
+// let arr = [1, 2, 3, 4, 5];
+// let sum = 0;
+//
+// for (let elem of arr) {
+//     let square = elem ** 2;
+//     sum += square;
+// }
+//
+// console.log(sum);
+
+// task 90
+
+// let arr = [1, 2, 4, 5, 6, 3, 7, 8, 9];
+// let mean = 0;
+// let sum = 0;
+//
+// for (let elem of arr) {
+//     sum += elem;
+//     mean = sum / arr.length;
+//
+// }
+//
+// console.log(mean);
+
+// task 91
+
+// function factorial(num) {
+//     if (num === 0 || Number.isNaN(num) || !Number.isInteger(num)) {
+//         return 1;
+//     }
+//
+//     return num * factorial(num - 1);
+// }
+//
+// console.log(factorial(4));
+
+// task 92
+
+// let arr = [];
+//
+// for (let i = 10; i >= 1; i--) {
+//     arr.push(i);
+// }
+//
+// console.log(arr);
+
+// task 93
+
+// let arr = [2, 5, 7, -4, 3, -8, 17, -43, 46];
+// let sum = 0;
+//
+// for (let elem of arr) {
+//     if (elem > 0) {
+//         sum += elem;
+//     }
+// }
+//
+// console.log(sum);
+
+// task 94
+
+// let arr = [10, 20, 30, 50, 235, 3000];
+//
+// for (let elem of arr) {
+//     let str = String(elem);
+//     if (Number(str[0]) === 1 || Number(str[0]) === 2 || Number(str[0]) === 5) {
+//         console.log(elem);
+//     }
+// }
+
+// task 95
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+//
+// for (let i = arr.length - 1; i >= 0; i--) {
+//     console.log(arr[i]);
+// }
+
+// task 96
+
+// let arr = [0, 1, 3, 4, 5, 6, 7, 8, 9];
+//
+// for (let elem of arr) {
+//     if (elem === arr[elem]) {
+//         console.log(elem);
+//     }
+// }
+
+// task 97
+
+// let arr = [0, 1, 3, 4, 5, 6, 7, 8, 9];
+//
+// for (let elem of arr) {
+//     document.write(`<br>${elem}`);
+// }
+
+// task 98
+
+// let arr = [0, 1, 3, 4, 5, 6, 7, 8, 9];
+//
+// for (let elem of arr) {
+//     document.write(`<p>${elem}</p>`);
+// }
+
+// task 99
+
+// let arr = ['Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat', 'Sun'];
+//
+// const elements = [];
+//
+// for (let elem of arr) {
+//     if (elem !== 'Sat' && elem !== 'Sun') {
+//         document.write(`<br>${elem}`);
+//     } else {
+//         document.write(`<br><b>${elem}</b>`);
+//     }
+// }
+
+// task 100
+
+// let arr = ['Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat', 'Sun'];
+// let day = 5;
+//
+// for (let i = 0; i < arr.length; i++) {
+//     if (i === day - 1) {
+//         document.write(`<br><i>${arr[i]}</i>`);
+//     } else {
+//         document.write(`<br>${arr[i]}`);
+//     }
+// }
+
+// task 101
+
+// let obj = {
+//     employee1: 100,
+//     employee2: 200,
+//     employee3: 300,
+//     employee4: 400,
+//     employee5: 500,
+//     employee6: 600,
+//     employee7: 700,
+// };
+//
+// for (let key in obj) {
+//     obj[key] = Math.trunc(obj[key] * 1.1);
+// }
+//
+// console.log(obj);
+
+// task 102
+
+// let obj = {
+//     employee1: 100,
+//     employee2: 200,
+//     employee3: 300,
+//     employee4: 400,
+//     employee5: 500,
+//     employee6: 600,
+//     employee7: 700,
+// };
+//
+// for (let key in obj) {
+//     if (obj[key] <= 400) {
+//         obj[key] = Math.trunc(obj[key] * 1.1);
+//     }
+// }
+//
+// console.log(obj);
+
+// task 103
